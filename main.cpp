@@ -165,7 +165,7 @@ SetConsoleTextAttribute(H_Console, 6);
 clearScreen() ;
 char input[100] ;
 gotoXY(31, 16);
-cout<<"Enter the level 1.beg 2.med 3.hard" ; //enter word to be guessed
+cout<<"Enter the level 1.beginner 2.medium 3.hard" ; //enter word to be guessed
 gotoXY(31,18) ;
 cin>>input ;
 storetheword(input) ; //store word
@@ -433,10 +433,10 @@ string getWord() {
     ifstream words_file;
     try {
         if(strcmp(response, "beg") == 0){
-            words_file.open("beg.txt");
+            words_file.open("beginner.txt");
         }
         else if(strcmp(response, "med") == 0){
-            words_file.open("med.txt");
+            words_file.open("medium.txt");
         }
         else {
             words_file.open("hard.txt");
