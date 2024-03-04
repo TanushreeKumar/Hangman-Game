@@ -8,7 +8,7 @@ If the suggested letter does not occur in the word, the other player draws one e
 iostream: - Input-output stream, member function to insert data into a stream (output) or extract data from a stream (input), and to control the format of data that you insert or extract [ #include <iostream>]. 
 
 fstream: - File stream, use to move data from a file saved in the system
-[ #include <fstream>]. It is use for file handling, to get words from the file (beg.txt, med.txt, hard.txt).
+[ #include <fstream>]. It is use for file handling, to get words from the file (beginner.txt, medium.txt, hard.txt).
 
 string: - A string is class that defines objects that be represented as stream of characters. In the code, it is used to get the names of the players and for the words from the file [#include <string>].
 
